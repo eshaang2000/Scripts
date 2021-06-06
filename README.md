@@ -5,4 +5,5 @@ Some useful bash scripts that I use
 
 The weather script simply curls wttr.in to get you the weather.
 Usage:
+
 $./weather <location>
