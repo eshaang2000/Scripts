@@ -4,7 +4,7 @@ def strip_date():
 
     # datetime_object = datetime.strptime(fridayDate, '%m/%d')
     day = datetime.today()
-    friday = day + timedelta(days=day.weekday()) + timedelta(days=4, weeks=0)
+    friday = day - timedelta(days=day.weekday()) + timedelta(days=4, weeks=0)
     # print(datetime_object)
     return friday
 
